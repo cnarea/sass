@@ -25,7 +25,7 @@ body {
 .main-banner {
   width: 100%;
   height: 710px;
-  background: url(../imagenes/banner.jpg) no-repeat center/cover;
+  background: url(../imagenes/banner.png) no-repeat center/cover;
   margin-top: -57px; }
   .main-banner .slogan {
     font-size: 45px;
@@ -52,7 +52,7 @@ body {
     .phrase .hook a {
       border: black 1px solid;
       height: 35px;
-      width: 17%;
+      width: 19%;
       text-align: center;
       line-height: 32px;
       border-radius: 18px;
@@ -188,23 +188,23 @@ body {
   height: 100%; }
 
 .derecha {
-  background: url(../imagenes/escuela.jpg);
+  background: url(../imagenes/escuela.png);
   background-size: cover;
   background-position: right;
   height: 100%; }
 
-#pantalla-dividida {
+#pantalla-dividida, #pantalla-dividida2, #pantalla-dividida3, #pantalla-dividida4, #pantalla-dividida5, #pantalla-dividida6 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-auto-rows: 450px;
   padding-bottom: 85px; }
-  #pantalla-dividida div h3 {
+  #pantalla-dividida div h3, #pantalla-dividida2 div h3, #pantalla-dividida3 div h3, #pantalla-dividida4 div h3, #pantalla-dividida5 div h3, #pantalla-dividida6 div h3 {
     color: white;
     font-family: "Roboto", sans-serif;
     font-size: 50px;
     padding-left: 45px;
     margin-top: 35px; }
-  #pantalla-dividida div p {
+  #pantalla-dividida div p, #pantalla-dividida2 div p, #pantalla-dividida3 div p, #pantalla-dividida4 div p, #pantalla-dividida5 div p, #pantalla-dividida6 div p {
     color: black;
     font-family: "Roboto", sans-serif;
     font-size: 20px;
@@ -213,7 +213,7 @@ body {
     margin: auto;
     line-height: 1.5;
     text-align: justify; }
-  #pantalla-dividida div a {
+  #pantalla-dividida div a, #pantalla-dividida2 div a, #pantalla-dividida3 div a, #pantalla-dividida4 div a, #pantalla-dividida5 div a, #pantalla-dividida6 div a {
     cursor: pointer;
     border-radius: 20px;
     font-weight: bold;
@@ -235,46 +235,10 @@ body {
   height: 100%; }
 
 .izquierda2 {
-  background: url(../imagenes/ollas.jpg);
+  background: url(../imagenes/ollas.png);
   background-size: cover;
   background-position: right;
   height: 100%; }
-
-#pantalla-dividida2 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-auto-rows: 450px;
-  padding-bottom: 85px; }
-  #pantalla-dividida2 div h3 {
-    color: white;
-    font-family: "Roboto", sans-serif;
-    font-size: 50px;
-    padding-left: 45px;
-    margin-top: 35px; }
-  #pantalla-dividida2 div p {
-    color: black;
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
-    padding-top: 20px;
-    width: 65%;
-    margin: auto;
-    line-height: 1.5;
-    text-align: justify; }
-  #pantalla-dividida2 div a {
-    cursor: pointer;
-    border-radius: 20px;
-    font-weight: bold;
-    padding: 8px 30px;
-    font-size: 12px;
-    background-color: white;
-    color: black;
-    border: 1px solid white;
-    margin: 10px 12px;
-    font-family: 'Roboto', sans-serif;
-    display: inline-block;
-    margin-left: 66%;
-    margin-top: 55px;
-    text-decoration: none; }
 
 /* PAGINA SOSTENIBILIDAD */
 .derecha3 {
@@ -282,46 +246,10 @@ body {
   height: 100%; }
 
 .izquierda3 {
-  background: url(../imagenes/HOJAS.jpg);
+  background: url(../imagenes/HOJAS.png);
   background-size: cover;
   background-position: right;
   height: 100%; }
-
-#pantalla-dividida3 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-auto-rows: 450px;
-  padding-bottom: 85px; }
-  #pantalla-dividida3 div h3 {
-    color: white;
-    font-family: "Roboto", sans-serif;
-    font-size: 50px;
-    padding-left: 45px;
-    margin-top: 35px; }
-  #pantalla-dividida3 div p {
-    color: black;
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
-    padding-top: 20px;
-    width: 65%;
-    margin: auto;
-    line-height: 1.5;
-    text-align: justify; }
-  #pantalla-dividida3 div a {
-    cursor: pointer;
-    border-radius: 20px;
-    font-weight: bold;
-    padding: 8px 30px;
-    font-size: 12px;
-    background-color: white;
-    color: black;
-    border: 1px solid white;
-    margin: 10px 12px;
-    font-family: 'Roboto', sans-serif;
-    display: inline-block;
-    margin-left: 66%;
-    margin-top: 55px;
-    text-decoration: none; }
 
 /* PAGINA SERVICIOS */
 /* SERVICIOS 1 */
@@ -330,46 +258,10 @@ body {
   height: 100%; }
 
 .izquierda4 {
-  background: url(../imagenes/delivery.jpg);
+  background: url(../imagenes/delivery.png);
   background-size: cover;
   background-position: right;
   height: 100%; }
-
-#pantalla-dividida4 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-auto-rows: 450px;
-  padding-bottom: 85px; }
-  #pantalla-dividida4 div h3 {
-    color: white;
-    font-family: "Roboto", sans-serif;
-    font-size: 50px;
-    padding-left: 45px;
-    margin-top: 35px; }
-  #pantalla-dividida4 div p {
-    color: black;
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
-    padding-top: 20px;
-    width: 65%;
-    margin: auto;
-    line-height: 1.5;
-    text-align: justify; }
-  #pantalla-dividida4 div a {
-    cursor: pointer;
-    border-radius: 20px;
-    font-weight: bold;
-    padding: 8px 30px;
-    font-size: 12px;
-    background-color: white;
-    color: black;
-    border: 1px solid white;
-    margin: 10px 12px;
-    font-family: 'Roboto', sans-serif;
-    display: inline-block;
-    margin-left: 66%;
-    margin-top: 55px;
-    text-decoration: none; }
 
 /* SERVICIOS 2 */
 .izquierda5 {
@@ -377,46 +269,10 @@ body {
   height: 100%; }
 
 .derecha5 {
-  background: url(../imagenes/Instalacion.jpg);
+  background: url(../imagenes/Instalacion.png);
   background-size: cover;
   background-position: right;
   height: 100%; }
-
-#pantalla-dividida5 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-auto-rows: 450px;
-  padding-bottom: 85px; }
-  #pantalla-dividida5 div h3 {
-    color: white;
-    font-family: "Roboto", sans-serif;
-    font-size: 50px;
-    padding-left: 45px;
-    margin-top: 35px; }
-  #pantalla-dividida5 div p {
-    color: black;
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
-    padding-top: 20px;
-    width: 65%;
-    margin: auto;
-    line-height: 1.5;
-    text-align: justify; }
-  #pantalla-dividida5 div a {
-    cursor: pointer;
-    border-radius: 20px;
-    font-weight: bold;
-    padding: 8px 30px;
-    font-size: 12px;
-    background-color: white;
-    color: black;
-    border: 1px solid white;
-    margin: 10px 12px;
-    font-family: 'Roboto', sans-serif;
-    display: inline-block;
-    margin-left: 66%;
-    margin-top: 55px;
-    text-decoration: none; }
 
 /* SERVICIOS 3 */
 .derecha6 {
@@ -424,46 +280,10 @@ body {
   height: 100%; }
 
 .izquierda6 {
-  background: url(../imagenes/muebles-7z-z.jpg);
+  background: url(../imagenes/muebles-7z-z.png);
   background-size: cover;
   background-position: right;
   height: 100%; }
-
-#pantalla-dividida6 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-auto-rows: 450px;
-  padding-bottom: 85px; }
-  #pantalla-dividida6 div h3 {
-    color: white;
-    font-family: "Roboto", sans-serif;
-    font-size: 50px;
-    padding-left: 45px;
-    margin-top: 35px; }
-  #pantalla-dividida6 div p {
-    color: black;
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
-    padding-top: 20px;
-    width: 65%;
-    margin: auto;
-    line-height: 1.5;
-    text-align: justify; }
-  #pantalla-dividida6 div a {
-    cursor: pointer;
-    border-radius: 20px;
-    font-weight: bold;
-    padding: 8px 30px;
-    font-size: 12px;
-    background-color: white;
-    color: black;
-    border: 1px solid white;
-    margin: 10px 12px;
-    font-family: 'Roboto', sans-serif;
-    display: inline-block;
-    margin-left: 66%;
-    margin-top: 55px;
-    text-decoration: none; }
 
 /*PAGINA CONTACTO*/
 .formulario-titulo {
@@ -533,11 +353,348 @@ body {
   padding-top: 45px;
   padding-left: 25px;
   padding-bottom: 45px; }
+  .preguntas h4 {
+    padding-top: 45px;
+    padding-bottom: 10px; }
+  .preguntas p {
+    width: 50%;
+    text-align: justify; }
 
-.preguntas h4 {
-  padding-top: 45px;
-  padding-bottom: 10px; }
+@media (max-width: 1200px) {
+  .px-5 {
+    margin-left: -35rem; }
+  .main-banner {
+    width: 100%;
+    height: 555px;
+    background: url(../imagenes/banner.png) no-repeat center/cover; }
+    .main-banner .slow .slogan {
+      font-size: 45px;
+      margin-top: 57px;
+      margin-left: 35px;
+      color: black;
+      text-align: left;
+      padding-top: 95px; }
+  .phrase h2 {
+    font-size: 25px;
+    text-align: left;
+    font-weight: bold; }
+  .hook {
+    display: flex;
+    justify-content: space-between;
+    width: 95%; }
+    .hook p {
+      width: 40%;
+      height: 75px;
+      font-size: 16px; }
+    .hook a {
+      padding: 0px 0px;
+      font-size: 15px; }
+  .main-footer .section {
+    width: auto; }
+    .main-footer .section ul {
+      justify-content: space-between; }
+      .main-footer .section ul li a {
+        justify-content: center;
+        padding: 6px 12px;
+        font-size: 20px; }
+  .main-footer .unete {
+    width: 100%; }
+    .main-footer .unete p {
+      width: 60%;
+      font-size: 18px; }
+    .main-footer .unete a {
+      font-size: 20px; }
+  /* PAGINA SOSTENIBILIDAD */
+  #pantalla-dividida3 .derecha3 h3 {
+    font-size: 40px;
+    margin-top: 35px; }
+  /* PAGINA CONTACTO */
+  .form {
+    padding-left: 20px;
+    padding-right: 20px; } }
 
-.preguntas p {
-  width: 50%;
-  text-align: justify; }
+@media (max-width: 900px) {
+  .navbar-toggler {
+    margin-left: 36rem; }
+  .navbar-nav {
+    display: inline; }
+  .phrase .hook {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; }
+    .phrase .hook p {
+      width: 50%;
+      height: 75px;
+      font-size: 16px; }
+    .phrase .hook a {
+      width: 30%;
+      padding: 0px 0px;
+      font-size: 15px; }
+  /* PAGINA PRODUCTOS */
+  .main-product p {
+    width: 55%;
+    text-align: left;
+    font-size: 20px; }
+  /* PAGINA NOVEDADES */
+  #pantalla-dividida .izquierda h3, #pantalla-dividida2 .izquierda h3, #pantalla-dividida3 .izquierda h3, #pantalla-dividida4 .izquierda h3, #pantalla-dividida5 .izquierda h3, #pantalla-dividida6 .izquierda h3 {
+    font-size: 40px;
+    margin-left: -10px; }
+  #pantalla-dividida .izquierda P, #pantalla-dividida2 .izquierda P, #pantalla-dividida3 .izquierda P, #pantalla-dividida4 .izquierda P, #pantalla-dividida5 .izquierda P, #pantalla-dividida6 .izquierda P {
+    font-size: 20px;
+    width: 80%; }
+  #pantalla-dividida2 .derecha2 h3 {
+    font-size: 40px;
+    margin-left: -10px; }
+  #pantalla-dividida2 .derecha2 P {
+    font-size: 20px;
+    width: 80%; }
+  /* PAGINA SOSTENIBILIDAD */
+  #pantalla-dividida3 .derecha3 h3 {
+    font-size: 33px;
+    margin-left: -20px;
+    margin-top: 25px; }
+  #pantalla-dividida3 .derecha3 p {
+    font-size: 20px;
+    width: 80%; }
+  /* PAGINA SERVICIOS */
+  #pantalla-dividida4 .derecha4 h3 {
+    font-size: 35px;
+    margin-left: -20px;
+    margin-top: 25px; }
+  #pantalla-dividida4 .derecha4 p {
+    font-size: 20px;
+    width: 80%; }
+  #pantalla-dividida5 .izquierda5 h3 {
+    font-size: 40px;
+    margin-left: -10px; }
+  #pantalla-dividida5 .izquierda5 P {
+    font-size: 20px;
+    width: 80%; }
+  #pantalla-dividida6 .derecha6 h3 {
+    font-size: 35px;
+    margin-left: -20px;
+    margin-top: 25px; }
+  #pantalla-dividida6 .derecha6 p {
+    font-size: 20px;
+    width: 80%; }
+  /* PAGINA CONTACTO */
+  .form {
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px; } }
+
+@media (max-width: 768px) {
+  .navbar-toggler {
+    margin-left: 28rem; }
+  .navbar-nav {
+    display: inline; }
+  .phrase h2 {
+    font-size: 20px; }
+  .phrase .hook {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; }
+    .phrase .hook p {
+      width: 60%;
+      height: 75px;
+      font-size: 16px; }
+    .phrase .hook a {
+      width: 30%;
+      padding: 0px 0px;
+      font-size: 15px; }
+  .main-gallery {
+    margin-top: 40px;
+    grid-template-columns: repeat(2, 1fr); }
+  /* PRODUCTOS */
+  .main-product p {
+    width: 85%;
+    text-align: left; }
+  .main-product .gallery-product {
+    margin-top: 40px;
+    grid-template-columns: repeat(2, 1fr); }
+  /* NOVEDADES */
+  #pantalla-dividida, #pantalla-dividida2, #pantalla-dividida3, #pantalla-dividida4, #pantalla-dividida5, #pantalla-dividida6 {
+    grid-template-columns: repeat(1, 1fr); }
+    #pantalla-dividida .izquierda h3, #pantalla-dividida2 .izquierda h3, #pantalla-dividida3 .izquierda h3, #pantalla-dividida4 .izquierda h3, #pantalla-dividida5 .izquierda h3, #pantalla-dividida6 .izquierda h3 {
+      font-size: 45px;
+      margin-left: -10px; }
+    #pantalla-dividida .izquierda p, #pantalla-dividida2 .izquierda p, #pantalla-dividida3 .izquierda p, #pantalla-dividida4 .izquierda p, #pantalla-dividida5 .izquierda p, #pantalla-dividida6 .izquierda p {
+      font-size: 25px;
+      width: 80%; }
+  #pantalla-dividida2 {
+    grid-template-columns: repeat(1, 1fr); }
+    #pantalla-dividida2 .derecha2 h3 {
+      font-size: 45px;
+      margin-left: -10px; }
+    #pantalla-dividida2 .derecha2 p {
+      font-size: 25px;
+      width: 80%; }
+  /* PAGINA SOSTENIBILIDAD */
+  #pantalla-dividida3 {
+    grid-template-columns: repeat(1, 1fr); }
+    #pantalla-dividida3 .derecha3 h3 {
+      font-size: 45px;
+      margin-left: -10px; }
+    #pantalla-dividida3 .derecha3 p {
+      font-size: 25px;
+      width: 80%; }
+  /* PAGINA SERVICIOS */
+  #pantalla-dividida4 {
+    grid-template-columns: repeat(1, 1fr); }
+    #pantalla-dividida4 .derecha4 h3 {
+      font-size: 45px;
+      margin-left: -10px; }
+    #pantalla-dividida4 .derecha4 p {
+      font-size: 25px;
+      width: 80%; }
+  #pantalla-dividida5 {
+    grid-template-columns: repeat(1, 1fr); }
+    #pantalla-dividida5 .izquierda5 h3 {
+      font-size: 45px;
+      margin-left: -10px; }
+    #pantalla-dividida5 .izquierda5 p {
+      font-size: 25px;
+      width: 80%; }
+  #pantalla-dividida6 {
+    grid-template-columns: repeat(1, 1fr); }
+    #pantalla-dividida6 .derecha6 h3 {
+      font-size: 45px;
+      margin-left: -10px; }
+    #pantalla-dividida6 .derecha6 p {
+      font-size: 25px;
+      width: 80%; } }
+
+@media (max-width: 600px) {
+  .navbar-toggler {
+    margin-left: 18rem; }
+  .main-banner .slow .slogan {
+    font-size: 30px; }
+  .phrase h2 {
+    font-size: 24px;
+    text-align: center; }
+  .phrase .hook {
+    display: block;
+    text-align: center;
+    width: 100%; }
+    .phrase .hook p {
+      width: 100%;
+      height: 75px;
+      font-size: 18px;
+      margin-top: 25px;
+      margin-bottom: 35px; }
+    .phrase .hook a {
+      width: 40%;
+      padding: 5px 20px;
+      font-size: 20px; }
+  .main-gallery {
+    margin-top: 40px;
+    grid-template-columns: repeat(2, 1fr); }
+  .main-footer section {
+    width: auto; }
+    .main-footer section ul {
+      justify-content: center;
+      padding: 0px 40px 0px 45px; }
+      .main-footer section ul li a {
+        margin: 18px;
+        justify-content: center;
+        font-size: 20px; }
+  #pantalla-dividida3 {
+    grid-template-columns: repeat(1, 1fr); }
+    #pantalla-dividida3 .derecha3 h3 {
+      font-size: 45px;
+      margin-left: -10px; }
+    #pantalla-dividida3 .derecha3 p {
+      font-size: 22px;
+      width: 80%; } }
+
+@media (max-width: 450px) {
+  .navbar-toggler {
+    margin-left: 11rem; }
+  .main-banner {
+    width: 100%;
+    height: 435px;
+    background: url(../imagenes/banner.png) no-repeat center/cover; }
+    .main-banner .slow .slogan {
+      font-size: 25px; }
+  .phrase h2 {
+    text-align: center; }
+  .phrase .hook {
+    display: block;
+    text-align: center;
+    width: 100%; }
+    .phrase .hook p {
+      width: 100%;
+      height: 75px;
+      font-size: 18px;
+      margin-top: 25px;
+      margin-bottom: 85px; }
+    .phrase .hook a {
+      width: 40%;
+      padding: 5px 20px;
+      font-size: 20px; }
+  .main-gallery {
+    margin-top: 40px;
+    grid-template-columns: repeat(1, 1fr); }
+  .main-footer section {
+    width: auto; }
+    .main-footer section ul {
+      justify-content: center;
+      padding: 0px 0px 0px 0px; }
+      .main-footer section ul li a {
+        margin: 9px;
+        justify-content: center;
+        font-size: 15px; }
+  .main-footer .unete {
+    width: 100%;
+    margin-top: 5px; }
+    .main-footer .unete p {
+      width: 80%;
+      font-size: 20px; }
+  .main-footer .pago {
+    margin-top: 20px; }
+  /* PRODUCTOS */
+  .main-product .gallery-product {
+    margin-top: 25px;
+    grid-template-columns: repeat(1, 1fr); }
+  /* NOVEDADES */
+  #pantalla-dividida .izquierda h3, #pantalla-dividida2 .izquierda h3, #pantalla-dividida3 .izquierda h3, #pantalla-dividida4 .izquierda h3, #pantalla-dividida5 .izquierda h3, #pantalla-dividida6 .izquierda h3 {
+    font-size: 35px;
+    margin-left: -10px; }
+  #pantalla-dividida .izquierda p, #pantalla-dividida2 .izquierda p, #pantalla-dividida3 .izquierda p, #pantalla-dividida4 .izquierda p, #pantalla-dividida5 .izquierda p, #pantalla-dividida6 .izquierda p {
+    font-size: 20px;
+    width: 80%; }
+  #pantalla-dividida2 .derecha2 h3 {
+    font-size: 35px;
+    margin-left: -10px; }
+  #pantalla-dividida2 .derecha2 p {
+    font-size: 20px;
+    width: 80%; }
+  /* PAGINA SOSTENIBILIDAD */
+  #pantalla-dividida3 .derecha3 h3 {
+    font-size: 30px;
+    margin-left: -15px; }
+  #pantalla-dividida3 .derecha3 p {
+    font-size: 20px;
+    width: 80%; }
+  /* PAGINA SERVICIOS */
+  #pantalla-dividida4 .derecha4 h3 {
+    font-size: 35px;
+    margin-left: -10px; }
+  #pantalla-dividida4 .derecha4 p {
+    font-size: 20px;
+    width: 80%; }
+  #pantalla-dividida5 .izquierda5 h3 {
+    font-size: 35px;
+    margin-left: -10px; }
+  #pantalla-dividida5 .izquierda5 p {
+    font-size: 20px;
+    width: 80%; }
+  #pantalla-dividida6 .derecha6 h3 {
+    font-size: 35px;
+    margin-left: -10px; }
+  #pantalla-dividida6 .derecha6 p {
+    font-size: 20px;
+    width: 80%; }
+  /* Formulario */
+  .form .formulario .formulario-coment {
+    padding: 5px 140px 245px 40px; } }

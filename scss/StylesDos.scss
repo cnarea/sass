@@ -101,7 +101,7 @@ body{
 .main-banner{
     width: 100%;
     height: 710px;
-    background: url(../imagenes/banner.jpg) no-repeat center/cover;
+    background: url(../imagenes/banner.png) no-repeat center/cover;
     margin-top: -57px;
 
     .slogan{
@@ -135,7 +135,7 @@ body{
         a{
             border: rgb(0, 0, 0) 1px solid;
             height: 35px;
-            width: 17%;
+            width: 19%;
             text-align: center;
             line-height: 32px;
             border-radius: 18px;
@@ -186,20 +186,23 @@ body{
     height: 400px;
     background-color: rgb(243, 243, 243);
 
-    section ul{
-        display: flex;
-        justify-content: space-between;
-        padding: 0px 85px 30px 85px;
-        list-style: none;
-
-        li a{
-            background-color: rgb(0, 0, 0);
-            color: rgb(255, 255, 255);
-            padding: 5px 15px;
-            border-radius: 20px;
-            text-decoration: none;
+    section{
+        ul{
+            display: flex;
+            justify-content: space-between;
+            padding: 0px 85px 30px 85px;
+            list-style: none;
+            li{
+                a{
+                    background-color: rgb(0, 0, 0);
+                    color: rgb(255, 255, 255);
+                    padding: 5px 15px;
+                    border-radius: 20px;
+                    text-decoration: none;
+                }
+            } 
         }
-    }
+    } 
 
     .unete{
         width: 22%;
@@ -294,7 +297,7 @@ body{
 }
 
 .derecha{
-    background: url(../imagenes/escuela.jpg);
+    background: url(../imagenes/escuela.png);
     @include img-div-der();
 }
 
@@ -320,22 +323,12 @@ body{
 }
 
 .izquierda2{
-    background: url(../imagenes/ollas.jpg);
+    background: url(../imagenes/ollas.png);
     @include img-div-der();
 }
 
 #pantalla-dividida2{
-    @include pant-div();
-
-    div h3{
-        @include pan-div-titulo();
-    }
-    div p{
-        @include pan-div-parrafo();
-    }
-    div a{
-        @include botones2();
-    }
+    @extend #pantalla-dividida
 }
 
 /* PAGINA SOSTENIBILIDAD */
@@ -344,24 +337,12 @@ body{
 }
 
 .izquierda3{
-    background: url(../imagenes/HOJAS.jpg);
+    background: url(../imagenes/HOJAS.png);
     @include img-div-der();
 }
 
 #pantalla-dividida3{
-    @include pant-div();
-
-    div h3{
-        @include pan-div-titulo();
-    }
-
-    div p{
-        @include pan-div-parrafo();
-    }
-
-    div a{
-        @include botones2();
-    }
+    @extend #pantalla-dividida
 }
 
 /* PAGINA SERVICIOS */
@@ -371,24 +352,12 @@ body{
 }
 
 .izquierda4{
-    background: url(../imagenes/delivery.jpg);
+    background: url(../imagenes/delivery.png);
     @include img-div-der();
 }
 
 #pantalla-dividida4{
-    @include pant-div();
-
-    div h3{
-        @include pan-div-titulo();
-    }
-
-    div p{
-        @include pan-div-parrafo();
-    }
-
-    div a{
-        @include botones2();
-    }
+    @extend #pantalla-dividida
 }
 
 /* SERVICIOS 2 */
@@ -397,24 +366,12 @@ body{
 }
 
 .derecha5{
-    background: url(../imagenes/Instalacion.jpg);
+    background: url(../imagenes/Instalacion.png);
     @include img-div-der();
 }
 
 #pantalla-dividida5{
-    @include pant-div();
-
-    div h3{
-        @include pan-div-titulo();
-    }
-
-    div p{
-        @include pan-div-parrafo();
-    }
-
-    div a{
-        @include botones2();
-    }
+    @extend #pantalla-dividida
 }
 
 /* SERVICIOS 3 */
@@ -423,24 +380,12 @@ body{
 }
 
 .izquierda6{
-    background: url(../imagenes/muebles-7z-z.jpg);
+    background: url(../imagenes/muebles-7z-z.png);
     @include img-div-der();
 }
 
 #pantalla-dividida6{
-    @include pant-div();
-
-    div h3{
-        @include pan-div-titulo();
-    }
-
-    div p{
-        @include pan-div-parrafo();
-    }
-
-    div a{
-        @include botones2();
-    }
+    @extend #pantalla-dividida
 }
 
 /*PAGINA CONTACTO*/
@@ -528,17 +473,641 @@ body{
     padding-top: 45px;
     padding-left: 25px;
     padding-bottom: 45px;
+
+    h4{
+        padding-top: 45px;
+        padding-bottom: 10px;
+    }
+
+    p{
+        width: 50%;
+        text-align: justify;
+    }
 }
 
-.preguntas h4{
-    padding-top: 45px;
-    padding-bottom: 10px;
+@media (max-width: 1200px) {
+    .px-5{
+        margin-left: -35rem;
+    }
+
+    .main-banner{
+        width: 100%;
+        height: 555px;
+        background: url(../imagenes/banner.png) no-repeat center/cover;
+
+        .slow{
+            .slogan{
+                font-size: 45px;
+                margin-top: 57px;
+                margin-left: 35px;
+                color: rgb(0, 0, 0,);
+                text-align: left;
+                padding-top: 95px;
+            }  
+        }   
+    }
+
+    .phrase{
+        h2{
+        font-size: 25px;
+        text-align: left;
+        font-weight: bold;
+        }
+    }
+
+    .hook{
+        display: flex;
+        justify-content: space-between;
+        width: 95%;
+
+        p{
+            width: 40%;
+            height: 75px;
+            font-size: 16px;
+        }
+
+        a{
+            padding: 0px 0px;
+            font-size: 15px;
+        }
+    }
+
+    .main-footer{
+        .section{
+            width: auto;
+
+            ul{
+                justify-content: space-between;
+                li{
+                    a{
+                        justify-content: center;
+                        padding: 6px 12px;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+
+        .unete{
+            width: 100%;
+
+            p{
+                width: 60%;
+                font-size: 18px;
+            }
+
+            a{
+                font-size: 20px;
+            }
+        }
+    }
+
+    /* PAGINA SOSTENIBILIDAD */
+    #pantalla-dividida3{
+        .derecha3{
+            h3{
+                font-size: 40px;
+                margin-top: 35px;
+            }
+        }
+    }
+
+    /* PAGINA CONTACTO */
+    .form{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
 
-.preguntas p{
-    width: 50%;
-    text-align: justify;
+@media (max-width: 900px) {
+    .navbar-toggler {
+        margin-left: 36rem;
+        
+    }
+
+    .navbar-nav{
+        display: inline;
+    }
+
+    .phrase{
+        .hook{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+
+            p{
+                width: 50%;
+                height: 75px;
+                font-size: 16px;
+            }
+
+            a{
+                width: 30%;
+                padding: 0px 0px;
+                font-size: 15px;
+            }
+        }
+    }
+
+    /* PAGINA PRODUCTOS */
+    .main-product{
+        p{
+        width: 55%;
+        text-align: left;
+        font-size: 20px;
+        }
+    }
+
+    /* PAGINA NOVEDADES */
+    #pantalla-dividida {
+        .izquierda {
+            h3{
+            font-size: 40px;
+            margin-left: -10px;
+            }
+
+            P{
+                font-size: 20px;
+                width: 80%;
+            }
+        }  
+    }
+
+    #pantalla-dividida2 {
+        .derecha2 {
+            h3{
+            font-size: 40px;
+            margin-left: -10px;
+            }
+
+            P{
+                font-size: 20px;
+                width: 80%;
+            }
+        }  
+    }
+
+    /* PAGINA SOSTENIBILIDAD */
+    #pantalla-dividida3{
+        .derecha3{
+            h3{
+                font-size: 33px;
+                margin-left: -20px;
+                margin-top: 25px;
+            }
+
+            p{
+                font-size: 20px;
+                width: 80%;
+            }
+        }
+    }
+
+    /* PAGINA SERVICIOS */
+    #pantalla-dividida4{
+        .derecha4{
+            h3{
+                font-size: 35px;
+                margin-left: -20px;
+                margin-top: 25px;
+            }
+            p{
+                font-size: 20px;
+                width: 80%;
+            }
+        }
+    }
+
+    #pantalla-dividida5 {
+        .izquierda5 {
+            h3{
+            font-size: 40px;
+            margin-left: -10px;
+            }
+            P{
+                font-size: 20px;
+                width: 80%;
+            }
+        }  
+    }
+
+    #pantalla-dividida6{
+        .derecha6{
+            h3{
+                font-size: 35px;
+                margin-left: -20px;
+                margin-top: 25px;
+            }
+            p{
+                font-size: 20px;
+                width: 80%;
+            }
+        }
+    }
+
+    /* PAGINA CONTACTO */
+    .form{
+        display: block;
+        padding-left: 20px;
+        padding-right: 20px;
+        }
 }
+
+@media (max-width: 768px) {
+    .navbar-toggler {
+        margin-left: 28rem;
+    }
+
+    .navbar-nav{
+        display: inline;
+    }
+
+    .phrase{
+        h2{
+            font-size: 20px;
+        }
+        .hook{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            p{
+                width: 60%;
+                height: 75px;
+                font-size: 16px;
+            }
+            a{
+                width: 30%;
+                padding: 0px 0px;
+                font-size: 15px;
+            }
+        }
+    }
+
+    .main-gallery{
+        margin-top: 40px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* PRODUCTOS */
+    .main-product{
+        p{
+        width: 85%;
+        text-align: left;
+        }
+
+        .gallery-product{
+            margin-top: 40px;
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    /* NOVEDADES */
+    #pantalla-dividida{
+    grid-template-columns: repeat(1, 1fr);
+        
+        .izquierda{
+            h3{
+                font-size: 45px;
+                margin-left: -10px;     
+            }
+            p{
+                font-size: 25px;
+                width: 80%;
+            }
+        }
+    }
+
+    #pantalla-dividida2{
+    grid-template-columns: repeat(1, 1fr);
+        
+        .derecha2{
+            h3{
+                font-size: 45px;
+                margin-left: -10px;     
+            }
+            p{
+                font-size: 25px;
+                width: 80%;
+            }
+        }
+    }
+
+    /* PAGINA SOSTENIBILIDAD */
+    #pantalla-dividida3{
+    grid-template-columns: repeat(1, 1fr);
+        
+        .derecha3{
+            h3{
+                font-size: 45px;
+                margin-left: -10px;     
+            }
+            p{
+                font-size: 25px;
+                width: 80%;
+            }
+        }
+    }
+
+    /* PAGINA SERVICIOS */
+    #pantalla-dividida4{
+    grid-template-columns: repeat(1, 1fr);
+        
+        .derecha4{
+            h3{
+                font-size: 45px;
+                margin-left: -10px;     
+            }
+            p{
+                font-size: 25px;
+                width: 80%;
+            }
+        }
+    }
+
+    #pantalla-dividida5{
+    grid-template-columns: repeat(1, 1fr);
+        
+        .izquierda5{
+            h3{
+                font-size: 45px;
+                margin-left: -10px;     
+            }
+            p{
+                font-size: 25px;
+                width: 80%;
+            }
+        }
+    }
+
+    #pantalla-dividida6{
+    grid-template-columns: repeat(1, 1fr);
+        
+        .derecha6{
+            h3{
+                font-size: 45px;
+                margin-left: -10px;     
+            }
+            p{
+                font-size: 25px;
+                width: 80%;
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .navbar-toggler {
+        margin-left: 18rem;
+    }
+
+    .main-banner{
+        .slow{
+            .slogan{
+                font-size: 30px;
+            }
+        }
+    }
+
+    .phrase{
+        h2{
+            font-size: 24px;
+            text-align: center;
+        }
+        .hook{
+            display: block;
+            text-align: center;
+            width: 100%;
+            p{
+                width: 100%;
+                height: 75px;
+                font-size: 18px;
+                margin-top: 25px;
+                margin-bottom: 35px;
+            }
+            a{
+                width: 40%;
+                padding: 5px 20px;
+                font-size: 20px;
+            }
+        }
+    }
+
+    .main-gallery{
+        margin-top: 40px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .main-footer{
+        section{
+           width: auto;
+           ul{
+               justify-content: center;
+               padding: 0px 40px 0px 45px;
+               li{
+                   a{
+                       margin: 18px;
+                       justify-content: center;
+                       font-size: 20px;
+                   }
+               }
+           }
+        }
+    }
+
+    #pantalla-dividida3{
+    grid-template-columns: repeat(1, 1fr);
+        
+        .derecha3{
+            h3{
+                font-size: 45px;
+                margin-left: -10px;     
+            }
+            p{
+                font-size: 22px;
+                width: 80%;
+            }
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    .navbar-toggler {
+        margin-left: 11rem;
+    }
+
+    .main-banner{
+        width: 100%;
+        height: 435px;
+        background: url(../imagenes/banner.png) no-repeat center/cover;
+
+        .slow{
+            .slogan{
+                font-size: 25px;
+            }
+        }
+    }
+
+    .phrase{
+        h2{
+            text-align: center;
+        }
+
+        .hook{
+            display: block;
+            text-align: center;
+            width: 100%;
+            p{
+                width: 100%;
+                height: 75px;
+                font-size: 18px;
+                margin-top: 25px;
+                margin-bottom: 85px;
+            }
+            a{
+                width: 40%;
+                padding: 5px 20px;
+                font-size: 20px;
+            }
+        }
+    }
+
+    .main-gallery{
+        margin-top: 40px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .main-footer{
+        section{
+           width: auto;
+           ul{
+               justify-content: center;
+               padding: 0px 0px 0px 0px;
+               li{
+                   a{
+                       margin: 9px;
+                       justify-content: center;
+                       font-size: 15px;
+                   }
+               }
+           }
+        }
+
+        .unete{
+            width: 100%;
+            margin-top: 5px;
+
+            p{
+                width: 80%;
+                font-size: 20px;
+            }
+        }
+
+        .pago{
+            margin-top: 20px;
+        }
+    }
+
+    /* PRODUCTOS */
+    .main-product{
+        .gallery-product{
+            margin-top: 25px;
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+
+    /* NOVEDADES */
+    #pantalla-dividida{
+        .izquierda{
+            h3{
+                font-size: 35px;
+                margin-left: -10px;
+            }
+
+            p{
+                font-size: 20px;
+                width: 80%;
+            }
+        }
+    }
+
+    #pantalla-dividida2{
+        .derecha2{
+            h3{
+                font-size: 35px;
+                margin-left: -10px;
+            }
+            p{
+                font-size: 20px;
+                width: 80%;
+            }
+        }
+    }
+
+    /* PAGINA SOSTENIBILIDAD */
+    #pantalla-dividida3{
+        .derecha3{
+            h3{
+                font-size: 30px;
+                margin-left: -15px;
+            }
+            p{
+                font-size: 20px;
+                width: 80%;
+            }
+        }
+    }
+
+     /* PAGINA SERVICIOS */
+     #pantalla-dividida4{
+        .derecha4{
+            h3{
+                font-size: 35px;
+                margin-left: -10px;
+            }
+            p{
+                font-size: 20px;
+                width: 80%;
+            }
+        }
+    }
+
+    #pantalla-dividida5{
+        .izquierda5{
+            h3{
+                font-size: 35px;
+                margin-left: -10px;
+            }
+            p{
+                font-size: 20px;
+                width: 80%;
+            }
+        }
+    }
+
+    #pantalla-dividida6{
+        .derecha6{
+            h3{
+                font-size: 35px;
+                margin-left: -10px;
+            }
+            p{
+                font-size: 20px;
+                width: 80%;
+            }
+        }
+    }
+
+    /* Formulario */
+    .form{
+        .formulario{
+            .formulario-coment{
+                padding: 5px 140px 245px 40px;
+            }
+        }
+    }
+}
+
+
 
 
 
